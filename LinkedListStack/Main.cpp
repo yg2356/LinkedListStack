@@ -106,7 +106,7 @@ void test6()
 
 	{
 		Stack s2 = s;
-		s2.Pop();
+		s2.Pop();    
 	}
 
 	if( s.Size() == 2 && s.Pop() == 3 )
